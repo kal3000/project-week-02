@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ModLogik</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nav bar - BEGIN -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav> -->
+    <!-- nav bar - END -->
+    <header>
+      <h1>ModLogik</h1>
+    </header>
+    <br />
+    <p>
+      A magazine for <strong>Volkswagen AG</strong> Enthusiasts, by
+      VW/Audi/Porsche Enthusiasts.
+    </p>
+    <hr />
+    <!-- div below contains anchor/hrefs for additional pages on site-->
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="store.html">Store</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <br />
+
+    <!-- MAIN -->
+    <main>
+      <section>
+        <div class="banner-div">
+          <img id="banner-long" src="b7_a4_stance_main.jpeg" width:"300px"
+          alt="A photo of a car, an Audi A4">
+          <figcaption>
+            Our mission at ModLogik Magazine is to preserve the affinity we all
+            have for our cars, in the form a culture, a true collective for all
+            enthusiasts. Not only do we aim to preserve the culture but we truly
+            want to drive this passion for this hobby to younger generations, in
+            order to keep this culture alive indefinitely.
+          </figcaption>
+        </div>
+      </section>
+      <hr />
+      <!-- SECTION 1 -->
+      <section id="section-1">
+        <div>
+          <h2>The Fresh Take</h2>
+
+          <h3>Top Mods for Mk7/MK8 GTI's</h3>
+
+          <!-- <p>
+            So you just purchased your hot-hatch and you want to start modifying
+            it. We have all been there! In this article we are going to share a
+            few performance modifications that provide the best bang for your
+            buck!
+          </p> -->
+          <!-- add images -->
+          <div class="grid-container">
+            <img
+              class="rounded-image"
+              src="mk7-gti-bonnet.jpeg"
+              alt="A picture of a car with open hood"
+            />
+            <img
+              class="rounded-image"
+              src="mk7-gti-rabbit.jpeg"
+              alt="A picture of a car"
+            />
+          </div>
+        </div>
+        <hr />
+        <br />
+      </section>
+      <!-- SECTION 2 -->
+      <section id="section-2">
+        <h3><strong>Top 5 mods to extract more HP from your GTI</strong></h3>
+        <ol>
+          <li>Intake</li>
+          <li>Exhaust</li>
+          <li>Tune</li>
+          <li>Intercooler</li>
+          <li>Downpipe</li>
+        </ol>
+        <p class="p-custom">
+          These are the core modifications you need to extract some pretty
+          decent horspower from your hot-hatch. With all the parts listed above
+          and a good tune, you can expect to see gains in the neighborhood of 80
+          - 100 horsepower.
+        </p>
+      </section>
+      <!-- SECTION 3-->
+      <section id="section-3">
+        <div id="flex-container">
+          <img
+            id="img-2"
+            src="cts-intake.jpeg"
+            width="500px"
+            alt="A picture of an intake"
+          />
+          <img
+            src="ecs-exhaust.jpeg"
+            width="500px"
+            alt="A picture of an exhaust"
+          />
+          <img
+            src="cobb-ap-tuner.jpeg"
+            width="500px"
+            alt="A picture of a tuning device"
+          />
+          <img
+            src="ie-obd-tuner.jpeg"
+            width="500px"
+            alt="A picture of a tuning device"
+          />
+          <img
+            src="apr-intercooler.jpeg"
+            width="500px"
+            alt="A picture of an intercooler core"
+          />
+          <img
+            src="ie-downpipe.jpeg"
+            width="500px"
+            alt="A picture of a turbocharger downpipe"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
